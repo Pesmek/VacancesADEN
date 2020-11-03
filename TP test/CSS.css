@@ -11,3 +11,19 @@ body {
     height: auto;
     margin: auto;
   }
+section{
+	margin: 1em;
+	padding: 1em;
+}
+ aside {
+    width: 70%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #C90C0C;
+    font-style: italic;
+    color: #C90C0C;
+}
+	aside > p {
+    margin: .5rem;
+}
