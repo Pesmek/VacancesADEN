@@ -27,3 +27,7 @@ section{
 	aside > p {
     margin: .5rem;
 }
+
+.footer {
+  margin: 0rem;
+}
