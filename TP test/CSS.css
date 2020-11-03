@@ -15,18 +15,53 @@ section{
 	margin: 1em;
 	padding: 1em;
 }
- aside {
-    width: 70%;
+ .class1 {
+    width: 50%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
     box-shadow: inset 5px 0 5px -5px #C90C0C;
     font-style: italic;
+	font-size: 150%;
     color: #C90C0C;
 }
 	aside > p {
     margin: .5rem;
 }
+ .class2 {
+    width: 70%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #0C45C9;
+    font-style: italic;
+	font-size: 150%;
+    color: #0C45C9;
+}
+	aside > p {
+    margin: .5rem;
+}
+a {
+text-decoration: none;
+}
+a:hover {
+background: none;
+}
+a span {
+display: none;
+}
+a:hover span {
+display: inline;
+position: absolute;
+margin-top:25px;
+left: 30px;
+width: 200px;
+border:1px solid #C90C0C;
+background:#ffffff;
+text-align: center;
+color: #ff0000;
+}
+
 
 .footer {
   margin: 0rem;
